@@ -159,12 +159,12 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #407088;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #824027;
+  color: #132743;
   text-decoration: underline;
 }
 
@@ -489,6 +489,11 @@ mark,
   height: auto;
 }
 
+.prof-pic {
+  width: 500px;
+  height: auto;
+}
+
 .figure {
   display: inline-block;
 }
@@ -536,6 +541,10 @@ pre code {
   word-break: normal;
 }
 
+.full-stack {
+  font-weight: bold;
+  color: #343a40;
+}
 .pre-scrollable {
   max-height: 340px;
   overflow-y: scroll;
@@ -6075,7 +6084,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #bd5d38 !important;
+  background-color: #407088 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9777,7 +9786,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #bd5d38 !important;
+  color: #407088 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10041,8 +10050,8 @@ p.lead {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
+    max-width: 12rem;
+    max-height: 12rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
