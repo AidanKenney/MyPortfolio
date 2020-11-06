@@ -550,6 +550,17 @@ pre code {
   overflow-y: scroll;
 }
 
+.portfolio-image-container {
+  display: block;
+  position: relative;
+}
+
+.portfolio-image-item {
+  padding: 4px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
 .container,
 .container-fluid,
 .container-xl,
@@ -10093,6 +10104,13 @@ p.lead {
 
 .dev-icons {
   font-size: 3rem;
+}
+
+.project-link {
+  padding: 4px;
+}
+.project-link:hover {
+    color: #bd5d38;
 }
 
 section.resume-section {
